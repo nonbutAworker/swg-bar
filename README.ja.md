@@ -31,7 +31,7 @@ SWG をバイパスする場合、接続のネットワーク経路が変わり�
 
 [SWG バイパスと TLS 検査例外の違い](https://swgbar.com/ja/guides/swg-bypass-vs-tls-exception/)と、[HTTPS 検査を確認するガイド](https://swgbar.com/ja/guides/detect-https-inspection/)をご覧ください。
 
-**2026 年 10 月 23 日時点：**公開インストーラーは 2.3.5 です。ワンクリックのドメインバイパスは 2.4.0 に向けて準備中です。確認済みの手順は[リリース情報](https://swgbar.com/ja/releases/)と[公式ガイド](https://swgbar.com/ja/guides/)に掲載します。
+**2026 年 10 月 23 日時点**：公開インストーラーは 2.3.5 です。ワンクリックのドメインバイパスは 2.4.0 に向けて準備中です。確認済みの手順は[リリース情報](https://swgbar.com/ja/releases/)と[公式ガイド](https://swgbar.com/ja/guides/)に掲載します。
 
 ## 実測例とお問い合わせ
 

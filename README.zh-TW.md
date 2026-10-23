@@ -31,7 +31,7 @@ SWG bar 是一款原生 macOS 選單列應用程式，協助你了解安全 Web 
 
 閱讀 [SWG 繞過與 TLS 解密例外的差異](https://swgbar.com/zh-TW/guides/swg-bypass-vs-tls-exception/)及 [HTTPS 偵測指南](https://swgbar.com/zh-TW/guides/detect-https-inspection/)，了解應檢查哪些證據。
 
-**2026 年 10 月 23 日核驗：**目前正式安裝套件為 2.3.5，一鍵網域繞過預計於 2.4.0 上線。經核驗的版本操作說明請以[版本資訊](https://swgbar.com/zh-TW/releases/)及[官方指南](https://swgbar.com/zh-TW/guides/)為準。
+**2026 年 10 月 23 日核驗**：目前正式安裝套件為 2.3.5，一鍵網域繞過預計於 2.4.0 上線。經核驗的版本操作說明請以[版本資訊](https://swgbar.com/zh-TW/releases/)及[官方指南](https://swgbar.com/zh-TW/guides/)為準。
 
 ## 實際測量與回饋
 
