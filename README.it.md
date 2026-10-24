@@ -23,7 +23,7 @@ Richiede **macOS 14 o successivo e Apple silicon**. La prova comprende **14 gior
 2. Apri SWG bar dalla barra dei menu ed esamina un dominio e i suoi certificati.
 3. Se lo desideri, configura l’[estensione per Chrome](https://swgbar.com/it/chrome-extension/).
 
-App ed estensione supportano inglese, cinese semplificato e tradizionale, giapponese e coreano. Il sito e questa presentazione sono disponibili in 12 lingue.
+L’app per Mac supporta inglese, cinese semplificato e tradizionale, giapponese e coreano. L’estensione Chrome 2.1.13, inclusa con l’app per Mac 2.3.7, supporta tutte le 12 lingue del sito. Gli aggiornamenti del Chrome Web Store vengono pubblicati separatamente dopo la revisione; verifica la versione indicata nello store.
 
 ## Bypass SWG ed eccezioni all’ispezione TLS
 
@@ -31,7 +31,7 @@ Il bypass di un SWG modifica il percorso di rete della connessione. Un’eccezio
 
 Leggi il [confronto tra bypass SWG ed eccezione TLS](https://swgbar.com/it/guides/swg-bypass-vs-tls-exception/) e la [guida per rilevare l’ispezione HTTPS](https://swgbar.com/it/guides/detect-https-inspection/).
 
-**Stato verificato il 23 ottobre 2026:** la versione pubblicata è la 2.3.5. Il bypass dei domini con un clic è previsto per la 2.4.0. Consulta le [informazioni sulle versioni](https://swgbar.com/it/releases/) e le [guide ufficiali](https://swgbar.com/it/guides/) per le procedure verificate.
+**Stato verificato il 24 ottobre 2026:** la versione pubblicata è la 2.3.7. Il bypass dei domini con un clic è previsto per la 2.4.0. Consulta le [informazioni sulle versioni](https://swgbar.com/it/releases/) e le [guide ufficiali](https://swgbar.com/it/guides/) per le procedure verificate.
 
 ## Misurazione documentata e assistenza
 

@@ -23,7 +23,7 @@ Voraussetzung: **macOS 14 oder neuer und Apple Silicon**. Die Testphase umfasst 
 2. Öffnen Sie SWG bar über die Menüleiste und prüfen Sie eine Domain und ihre Zertifikate.
 3. Richten Sie bei Bedarf die [Chrome-Erweiterung](https://swgbar.com/de/chrome-extension/) ein.
 
-App und Erweiterung unterstützen Englisch, vereinfachtes und traditionelles Chinesisch, Japanisch und Koreanisch. Website und Projektübersicht sind in 12 Sprachen verfügbar.
+Die Mac-App unterstützt Englisch, vereinfachtes und traditionelles Chinesisch, Japanisch und Koreanisch. Die mit der Mac-App 2.3.7 gebündelte Chrome-Erweiterung 2.1.13 unterstützt alle 12 Sprachen der Website. Updates im Chrome Web Store werden nach einer separaten Prüfung verfügbar; prüfen Sie die dort angezeigte Version.
 
 ## SWG umgehen oder eine TLS-Ausnahme nutzen?
 
@@ -31,7 +31,7 @@ Ein SWG-Bypass ändert den Netzwerkpfad einer Verbindung. Bei einer Ausnahme von
 
 Lesen Sie den [Vergleich von SWG-Bypass und TLS-Ausnahme](https://swgbar.com/de/guides/swg-bypass-vs-tls-exception/) sowie die [Anleitung zur Erkennung von HTTPS-Inspektion](https://swgbar.com/de/guides/detect-https-inspection/).
 
-**Stand: 23. Oktober 2026.** Veröffentlicht ist Version 2.3.5; der Domain-Bypass mit einem Klick ist für 2.4.0 vorgesehen. Aktuelle Hinweise finden Sie in den [Versionsinformationen](https://swgbar.com/de/releases/) und [Anleitungen](https://swgbar.com/de/guides/).
+**Stand: 24. Oktober 2026.** Veröffentlicht ist Version 2.3.7; der Domain-Bypass mit einem Klick ist für 2.4.0 vorgesehen. Aktuelle Hinweise finden Sie in den [Versionsinformationen](https://swgbar.com/de/releases/) und [Anleitungen](https://swgbar.com/de/guides/).
 
 ## Dokumentierte Messung und Hilfe
 

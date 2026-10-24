@@ -25,7 +25,7 @@ Requires **macOS 14 or later and Apple silicon**. The trial provides **14 days o
 2. Open SWG bar from the menu bar. Use Domains and Certificates to examine a hostname and its supporting evidence.
 3. Optionally follow the [Chrome extension setup](https://swgbar.com/en/chrome-extension/) to see available results while browsing.
 
-The app and extension interfaces support English, Simplified Chinese, Traditional Chinese, Japanese, and Korean. The website and this project overview support 12 languages.
+The Mac app supports English, Simplified Chinese, Traditional Chinese, Japanese, and Korean. Chrome companion 2.1.13, bundled with Mac app 2.3.7, supports all 12 website languages. Chrome Web Store updates become available separately after review; check the version shown in the store.
 
 ## How to bypass SWG: routing and HTTPS inspection
 
@@ -33,7 +33,7 @@ If you are researching **how to bypass SWG** on macOS, first distinguish a route
 
 Read [SWG bypass vs. a TLS inspection exception](https://swgbar.com/en/guides/swg-bypass-vs-tls-exception/) and [how to detect HTTPS inspection](https://swgbar.com/en/guides/detect-https-inspection/) for the evidence to examine.
 
-**Release status, checked October 23, 2026:** the published installer is 2.3.5. The one-click domain bypass workflow is planned for 2.4.0. Follow the [release information](https://swgbar.com/en/releases/) and [official guides](https://swgbar.com/en/guides/) for verified version-specific instructions.
+**Release status, checked October 24, 2026:** the published installer is 2.3.7. The one-click domain bypass workflow is planned for 2.4.0. Follow the [release information](https://swgbar.com/en/releases/) and [official guides](https://swgbar.com/en/guides/) for verified version-specific instructions.
 
 ## A documented certificate check
 

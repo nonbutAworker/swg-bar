@@ -23,7 +23,7 @@ Nécessite **macOS 14 ou version ultérieure et une puce Apple silicon**. L’es
 2. Ouvrez SWG bar dans la barre des menus et examinez un domaine et ses certificats.
 3. Configurez, si vous le souhaitez, l’[extension Chrome](https://swgbar.com/fr/chrome-extension/).
 
-L’application et l’extension prennent en charge l’anglais, le chinois simplifié et traditionnel, le japonais et le coréen. Le site et cette présentation sont disponibles en 12 langues.
+L’application Mac prend en charge l’anglais, le chinois simplifié et traditionnel, le japonais et le coréen. L’extension Chrome 2.1.13, incluse avec l’application Mac 2.3.7, prend en charge les 12 langues du site. Les mises à jour du Chrome Web Store sont publiées séparément après examen ; vérifiez la version affichée dans la boutique.
 
 ## Contourner une SWG ou exclure une connexion de l’inspection TLS ?
 
@@ -31,7 +31,7 @@ Le contournement d’une SWG change le trajet réseau de la connexion. Une excep
 
 Consultez la [comparaison entre contournement et exception TLS](https://swgbar.com/fr/guides/swg-bypass-vs-tls-exception/) et le [guide de détection de l’inspection HTTPS](https://swgbar.com/fr/guides/detect-https-inspection/).
 
-**État vérifié le 23 octobre 2026 :** la version publiée est la 2.3.5. Le contournement par domaine en un clic est prévu pour la version 2.4.0. Consultez les [informations de version](https://swgbar.com/fr/releases/) et les [guides officiels](https://swgbar.com/fr/guides/) pour les procédures vérifiées.
+**État vérifié le 24 octobre 2026 :** la version publiée est la 2.3.7. Le contournement par domaine en un clic est prévu pour la version 2.4.0. Consultez les [informations de version](https://swgbar.com/fr/releases/) et les [guides officiels](https://swgbar.com/fr/guides/) pour les procédures vérifiées.
 
 ## Mesure documentée et assistance
 

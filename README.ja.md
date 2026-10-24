@@ -23,7 +23,7 @@ SWG bar は、セキュア Web ゲートウェイ（SWG）による HTTPS 検査
 2. メニューバーから SWG bar を開き、ドメインと証明書の情報を確認します。
 3. 必要に応じて [Chrome 拡張機能](https://swgbar.com/ja/chrome-extension/)を設定します。
 
-アプリと拡張機能は英語、簡体字中国語、繁体字中国語、日本語、韓国語に対応しています。Web サイトとこのプロジェクト紹介は 12 言語に対応しています。
+Mac アプリは英語、簡体字中国語、繁体字中国語、日本語、韓国語に対応しています。Mac アプリ 2.3.7 に同梱される Chrome 拡張機能 2.1.13 は、Web サイトと同じ 12 言語に対応しています。Chrome ウェブストアの更新は別途審査を経て公開されるため、ストアに表示されるバージョンをご確認ください。
 
 ## SWG のバイパスと TLS 検査の例外
 
@@ -31,7 +31,7 @@ SWG をバイパスする場合、接続のネットワーク経路が変わり�
 
 [SWG バイパスと TLS 検査例外の違い](https://swgbar.com/ja/guides/swg-bypass-vs-tls-exception/)と、[HTTPS 検査を確認するガイド](https://swgbar.com/ja/guides/detect-https-inspection/)をご覧ください。
 
-**2026 年 10 月 23 日時点**：公開インストーラーは 2.3.5 です。ワンクリックのドメインバイパスは 2.4.0 に向けて準備中です。確認済みの手順は[リリース情報](https://swgbar.com/ja/releases/)と[公式ガイド](https://swgbar.com/ja/guides/)に掲載します。
+**2026 年 10 月 24 日時点**：公開インストーラーは 2.3.7 です。ワンクリックのドメインバイパスは 2.4.0 に向けて準備中です。確認済みの手順は[リリース情報](https://swgbar.com/ja/releases/)と[公式ガイド](https://swgbar.com/ja/guides/)に掲載します。
 
 ## 実測例とお問い合わせ
 

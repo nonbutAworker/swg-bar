@@ -23,7 +23,7 @@ SWG bar 是一款原生 macOS 選單列應用程式，協助你了解安全 Web 
 2. 從選單列開啟 SWG bar，查看網域及相關憑證。
 3. 如需在瀏覽器中查看結果，請依照 [Chrome 擴充功能指南](https://swgbar.com/zh-TW/chrome-extension/)完成連接。
 
-應用程式與擴充功能介面支援英語、簡體中文、繁體中文、日語及韓語。官網與本專案介紹提供 12 種語言。
+Mac 應用程式支援英語、簡體中文、繁體中文、日語及韓語。Mac 應用程式 2.3.7 隨附的 Chrome 擴充功能 2.1.13 支援官網全部 12 種語言。Chrome 商店更新需另行審核後發布，請以商店顯示的版本為準。
 
 ## 如何繞過 SWG：區分路由與 TLS 解密例外
 
@@ -31,7 +31,7 @@ SWG bar 是一款原生 macOS 選單列應用程式，協助你了解安全 Web 
 
 閱讀 [SWG 繞過與 TLS 解密例外的差異](https://swgbar.com/zh-TW/guides/swg-bypass-vs-tls-exception/)及 [HTTPS 偵測指南](https://swgbar.com/zh-TW/guides/detect-https-inspection/)，了解應檢查哪些證據。
 
-**2026 年 10 月 23 日核驗**：目前正式安裝套件為 2.3.5，一鍵網域繞過預計於 2.4.0 上線。經核驗的版本操作說明請以[版本資訊](https://swgbar.com/zh-TW/releases/)及[官方指南](https://swgbar.com/zh-TW/guides/)為準。
+**2026 年 10 月 24 日核驗**：目前正式安裝套件為 2.3.7，一鍵網域繞過預計於 2.4.0 上線。經核驗的版本操作說明請以[版本資訊](https://swgbar.com/zh-TW/releases/)及[官方指南](https://swgbar.com/zh-TW/guides/)為準。
 
 ## 實際測量與回饋
 
