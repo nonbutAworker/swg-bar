@@ -23,7 +23,7 @@ Memerlukan **macOS 14 atau lebih baru dan Apple silicon**. Uji coba mencakup **1
 2. Buka SWG bar dari bar menu dan periksa domain beserta sertifikatnya.
 3. Jika diperlukan, atur [ekstensi Chrome](https://swgbar.com/id/chrome-extension/).
 
-Aplikasi Mac mendukung bahasa Inggris, Mandarin sederhana dan tradisional, Jepang, serta Korea. Ekstensi Chrome 2.1.13 yang disertakan dalam aplikasi Mac 2.3.7 mendukung seluruh 12 bahasa situs web. Pembaruan Chrome Web Store diterbitkan secara terpisah setelah peninjauan; periksa versi yang tercantum di toko.
+Aplikasi Mac mendukung bahasa Inggris, Mandarin sederhana dan tradisional, Jepang, serta Korea. Ekstensi Chrome 2.1.13 yang disertakan dalam aplikasi Mac 2.4.0 mendukung seluruh 12 bahasa situs web. Pembaruan Chrome Web Store diterbitkan secara terpisah setelah peninjauan; periksa versi yang tercantum di toko.
 
 ## Cara melewati SWG dan pengecualian inspeksi TLS
 
@@ -31,7 +31,7 @@ Melewati SWG berarti mengubah jalur jaringan suatu koneksi. Pengecualian inspeks
 
 Baca [perbandingan bypass SWG dan pengecualian TLS](https://swgbar.com/id/guides/swg-bypass-vs-tls-exception/) serta [panduan mendeteksi inspeksi HTTPS](https://swgbar.com/id/guides/detect-https-inspection/).
 
-**Diperiksa pada 24 Oktober 2026:** versi penginstal yang diterbitkan adalah 2.3.7. Bypass domain dengan satu klik direncanakan untuk versi 2.4.0. Lihat [informasi rilis](https://swgbar.com/id/releases/) dan [panduan resmi](https://swgbar.com/id/guides/) untuk langkah yang telah diverifikasi.
+**Diperiksa pada 1 November 2026:** versi resmi 2.4.0 telah diterbitkan dengan bypass domain native. Checksum, tanda tangan, dan notarisasi paket sudah diverifikasi. Tutorial terperinci 2.4.0 menunggu verifikasi akhir pada perangkat. Lihat [informasi rilis](https://swgbar.com/id/releases/) dan [panduan resmi](https://swgbar.com/id/guides/).
 
 ## Pengukuran dan bantuan
 
