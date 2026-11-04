@@ -23,7 +23,7 @@ Memerlukan **macOS 14 atau lebih baru dan Apple silicon**. Uji coba mencakup **1
 2. Buka SWG bar dari bar menu dan periksa domain beserta sertifikatnya.
 3. Jika diperlukan, atur [ekstensi Chrome](https://swgbar.com/id/chrome-extension/).
 
-Aplikasi Mac mendukung bahasa Inggris, Mandarin sederhana dan tradisional, Jepang, serta Korea. Ekstensi Chrome 2.1.13 yang disertakan dalam aplikasi Mac 2.4.0 mendukung seluruh 12 bahasa situs web. Pembaruan Chrome Web Store diterbitkan secara terpisah setelah peninjauan; periksa versi yang tercantum di toko.
+Aplikasi Mac 2.4.12 dan ekstensi Chrome 2.1.13 yang disertakan mendukung seluruh 12 bahasa situs. Pembaruan Chrome Web Store didistribusikan terpisah setelah peninjauan; periksa versi yang tercantum di toko.
 
 ## Cara melewati SWG dan pengecualian inspeksi TLS
 
@@ -31,11 +31,15 @@ Melewati SWG berarti mengubah jalur jaringan suatu koneksi. Pengecualian inspeks
 
 Baca [perbandingan bypass SWG dan pengecualian TLS](https://swgbar.com/id/guides/swg-bypass-vs-tls-exception/) serta [panduan mendeteksi inspeksi HTTPS](https://swgbar.com/id/guides/detect-https-inspection/).
 
-**Diperiksa pada 1 November 2026:** versi resmi 2.4.0 telah diterbitkan dengan bypass domain native. Checksum, tanda tangan, dan notarisasi paket sudah diverifikasi. Tutorial terperinci 2.4.0 menunggu verifikasi akhir pada perangkat. Lihat [informasi rilis](https://swgbar.com/id/releases/) dan [panduan resmi](https://swgbar.com/id/guides/).
+Diverifikasi pada 4 November 2026: paket resmi 2.4.12 (build 42) cocok dengan SHA-256 yang dipublikasikan serta lolos pemeriksaan tanda tangan dan notarisasi Apple. Aplikasi dan ekstensi jaringan native yang terpasang cocok dengan paket; ekstensi Chrome yang disertakan tetap 2.1.13. Pengujian nyata aktivasi, penonaktifan, keluar, dan membuka ulang didokumentasikan di bawah.
+
+[Panduan langkah demi langkah](https://swgbar.com/id/guides/how-to-bypass-swg/) · [Pengujian lengkap dan keterbatasannya](https://swgbar.com/id/guides/certificate-check-case-study/)
 
 ## Pengukuran dan bantuan
 
-[Studi pemeriksaan sertifikat](https://swgbar.com/id/guides/certificate-check-case-study/) mencatat pengukuran bertanggal untuk `swgbar.com:443`, perintah OpenSSL yang dapat diulang, hasil evaluasi macOS, serta pengamatan terpisah menggunakan kode pemeriksaan SWG bar. Hasil tersebut hanya menjelaskan koneksi yang diukur dan tidak membuktikan bahwa gateway telah dilewati.
+[Pengujian lengkap dan keterbatasannya](https://swgbar.com/id/guides/certificate-check-case-study/)
+
+Dalam pengujian enam koneksi ke `www.doubao.com:443` dengan SWG bar 2.4.12, saat bypass dinonaktifkan atau aplikasi ditutup, koneksi mengembalikan rantai inspeksi; saat bypass diaktifkan atau dipulihkan, koneksi mengembalikan rantai publik. Studi kasus mencatat pemeriksaan TLS baru, perilaku saat memulai ulang, dan batas verifikasi otomatis aplikasi. Hasil ini berlaku untuk koneksi yang diuji pada jaringan ini.
 
 Ini adalah repositori resmi untuk pengenalan publik proyek. Gunakan [Issues](https://github.com/nonbutAworker/swg-bar/issues) untuk pertanyaan publik dan saran dokumentasi. Untuk urusan pribadi, hubungi [support@swgbar.com](mailto:support@swgbar.com). Jangan memublikasikan kunci lisensi atau riwayat penjelajahan.
 

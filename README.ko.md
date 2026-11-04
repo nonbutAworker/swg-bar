@@ -23,7 +23,7 @@ SWG bar는 보안 웹 게이트웨이(SWG)의 HTTPS 검사를 살펴볼 수 있�
 2. 메뉴 막대에서 SWG bar를 열고 도메인과 인증서 정보를 확인하세요.
 3. 필요한 경우 [Chrome 확장 프로그램](https://swgbar.com/ko/chrome-extension/)을 설정하세요.
 
-Mac 앱은 영어, 중국어 간체·번체, 일본어, 한국어를 지원합니다. Mac 앱 2.4.0에 포함된 Chrome 확장 프로그램 2.1.13은 웹사이트와 동일한 12개 언어를 지원합니다. Chrome 웹 스토어 업데이트는 별도 심사를 거쳐 공개되므로 스토어에 표시된 버전을 확인하세요.
+Mac 앱 2.4.12와 동봉된 Chrome 확장 2.1.13은 웹사이트의 12개 언어를 모두 지원합니다. Chrome 웹 스토어 업데이트는 별도 심사 후 배포되므로 스토어에 표시된 버전을 확인하세요.
 
 ## SWG 우회와 TLS 검사 예외
 
@@ -31,11 +31,15 @@ SWG 우회는 연결의 네트워크 경로를 바꾸는 것입니다. TLS 검�
 
 [SWG 우회와 TLS 검사 예외 비교](https://swgbar.com/ko/guides/swg-bypass-vs-tls-exception/) 및 [HTTPS 검사 확인 가이드](https://swgbar.com/ko/guides/detect-https-inspection/)를 참고하세요.
 
-**2026년 11월 1일 확인:** 공개 버전은 2.4.0이며 네이티브 도메인 우회를 포함합니다. 패키지 체크섬, 서명, 공증을 확인했습니다. 2.4.0 상세 안내는 기기에서의 최종 검증을 기다리고 있습니다. [릴리스 정보](https://swgbar.com/ko/releases/)와 [공식 가이드](https://swgbar.com/ko/guides/)를 확인하세요.
+2026년 11월 4일 검증했습니다. 정식 2.4.12 설치 패키지(빌드 42)는 공개 SHA-256과 일치하며 Apple 서명 및 공증 검사를 통과했습니다. 설치된 앱과 기본 네트워크 확장도 일치하고, 동봉된 Chrome 확장은 2.1.13입니다. 실제 활성화, 비활성화, 종료와 재시작 테스트는 아래 기록을 참고하세요.
+
+[단계별 우회 안내](https://swgbar.com/ko/guides/how-to-bypass-swg/) · [전체 실측 기록과 한계](https://swgbar.com/ko/guides/certificate-check-case-study/)
 
 ## 실제 측정과 문의
 
-[인증서 확인 사례](https://swgbar.com/ko/guides/certificate-check-case-study/)에는 `swgbar.com:443`의 측정 시각, 다시 실행할 수 있는 OpenSSL 명령, macOS 신뢰 평가 결과, SWG bar 검사 코드로 별도 측정한 결과가 있습니다. 이 결과는 해당 연결을 설명하며 게이트웨이 우회를 증명하지는 않습니다.
+[전체 실측 기록과 한계](https://swgbar.com/ko/guides/certificate-check-case-study/)
+
+SWG bar 2.4.12로 `www.doubao.com:443`에 새 연결 6개를 만들어 테스트했습니다. 우회를 끄거나 앱을 종료한 상태에서는 검사 기관의 인증서 체인이, 우회를 켜거나 복원한 상태에서는 공개 인증서 체인이 반환되었습니다. 사례에는 새로운 TLS 연결 검사, 재시작 동작, 앱 자동 검증의 한계를 기록했습니다. 결과는 이 네트워크에서 테스트한 연결에 한정됩니다.
 
 이 저장소는 공식 공개 프로젝트 소개입니다. 공개 질문이나 문서 제안은 [Issues](https://github.com/nonbutAworker/swg-bar/issues)를 이용하세요. 비공개 문의는 [support@swgbar.com](mailto:support@swgbar.com)으로 보내 주세요. 라이선스 키나 방문 기록은 공개하지 마세요.
 

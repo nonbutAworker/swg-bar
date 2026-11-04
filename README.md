@@ -25,7 +25,7 @@ Requires **macOS 14 or later and Apple silicon**. The trial provides **14 days o
 2. Open SWG bar from the menu bar. Use Domains and Certificates to examine a hostname and its supporting evidence.
 3. Optionally follow the [Chrome extension setup](https://swgbar.com/en/chrome-extension/) to see available results while browsing.
 
-The Mac app supports English, Simplified Chinese, Traditional Chinese, Japanese, and Korean. Chrome companion 2.1.13, bundled with Mac app 2.4.0, supports all 12 website languages. Chrome Web Store updates become available separately after review; check the version shown in the store.
+Mac app 2.4.12 and its bundled Chrome companion 2.1.13 support all 12 website languages. Chrome Web Store updates are distributed separately after review; check the version shown in the store.
 
 ## How to bypass SWG: routing and HTTPS inspection
 
@@ -33,11 +33,15 @@ If you are researching **how to bypass SWG** on macOS, first distinguish a route
 
 Read [SWG bypass vs. a TLS inspection exception](https://swgbar.com/en/guides/swg-bypass-vs-tls-exception/) and [how to detect HTTPS inspection](https://swgbar.com/en/guides/detect-https-inspection/) for the evidence to examine.
 
-**Release status, checked November 1, 2026:** the published installer is 2.4.0 and includes native domain bypass. Its package checksum, signature, and notarization have been verified. The detailed 2.4.0 tutorial is awaiting final on-device verification. See the [release information](https://swgbar.com/en/releases/) and [official guides](https://swgbar.com/en/guides/).
+Verified on November 4, 2026: the official 2.4.12 installer (build 42) matches its published SHA-256 and passes Apple signature and notarization checks. The installed app and native network extension match this package; the bundled Chrome companion remains 2.1.13. Real enable, disable, quit, and restart tests are now documented below.
+
+[Step-by-step bypass tutorial](https://swgbar.com/en/guides/how-to-bypass-swg/) · [Full test and its limitations](https://swgbar.com/en/guides/certificate-check-case-study/)
 
 ## A documented certificate check
 
-Our [certificate check case study](https://swgbar.com/en/guides/certificate-check-case-study/) records a dated check of `swgbar.com:443`, with OpenSSL commands you can repeat and macOS trust results. It also publishes a separate observation from SWG bar's released probe code. These results describe the measured connections; they do not establish that a gateway was bypassed or that another app used the same TLS connection.
+[Full test and its limitations](https://swgbar.com/en/guides/certificate-check-case-study/)
+
+In a six-connection test of `www.doubao.com:443` with SWG bar 2.4.12, disabled and exited states returned an inspection-issued chain; enabled and restored states returned a public chain. The case records fresh TLS checks, restart behavior, and the limits of the app’s automatic verification. These results apply to the tested connections on this network.
 
 ## Questions and feedback
 
