@@ -23,7 +23,7 @@ SWG bar 是一款原生 macOS 菜单栏应用，帮助你了解安全 Web 网关
 2. 从菜单栏打开 SWG bar，查看域名及相关证书。
 3. 如需在浏览器中查看结果，按照 [Chrome 扩展指南](https://swgbar.com/zh-CN/chrome-extension/)连接扩展。
 
-Mac 应用 2.4.12 及随附的 Chrome 扩展 2.1.13 均支持官网全部 12 种语言。Chrome 商店更新需单独审核后发布，请以商店显示的版本为准。
+Mac 应用支持英语、简体中文、繁体中文、日语和韩语。Mac 应用 2.4.0 随附的 Chrome 扩展 2.1.13 支持官网全部 12 种语言。Chrome 商店更新需另行审核后发布，请以商店显示的版本为准。
 
 ## 如何绕过 SWG：先区分路由与 TLS 解密例外
 
@@ -31,15 +31,11 @@ Mac 应用 2.4.12 及随附的 Chrome 扩展 2.1.13 均支持官网全部 12 种
 
 阅读 [SWG 绕过与 TLS 解密例外的区别](https://swgbar.com/zh-CN/guides/swg-bypass-vs-tls-exception/)和 [HTTPS 检测指南](https://swgbar.com/zh-CN/guides/detect-https-inspection/)，了解应当查看哪些证据。
 
-2026 年 11 月 4 日核验：正式 2.4.12 安装包（构建 42）与公布的 SHA-256 一致，并通过 Apple 签名和公证检查。本机应用及原生网络扩展与该包一致，随附 Chrome 配套扩展仍为 2.1.13。实际启用、关闭、退出和重启测试见下方记录。
-
-[逐步操作教程](https://swgbar.com/zh-CN/guides/how-to-bypass-swg/) · [完整实测记录与限制](https://swgbar.com/zh-CN/guides/certificate-check-case-study/)
+**2026 年 11 月 1 日核验**：正式版 2.4.0 已发布，包含原生域名绕过功能，安装包校验和、签名及公证已核验。2.4.0 详细教程仍待最后的实机验证。请查看[版本信息](https://swgbar.com/zh-CN/releases/)和[官方指南](https://swgbar.com/zh-CN/guides/)。
 
 ## 真实测量与反馈
 
-[完整实测记录与限制](https://swgbar.com/zh-CN/guides/certificate-check-case-study/)
-
-使用 SWG bar 2.4.12 对 `www.doubao.com:443` 进行了六次新连接测试：关闭绕过或退出应用时返回检查机构签发的证书链，开启绕过或重启恢复后返回公共证书链。案例记录了新的 TLS 验证、重启行为和应用自动验证的局限。结果仅适用于本次网络中测试的连接。
+[证书检查案例](https://swgbar.com/zh-CN/guides/certificate-check-case-study/)记录了对 `swgbar.com:443` 的测量时间、可重复执行的 OpenSSL 命令、macOS 信任结果，以及使用 SWG bar 检测代码进行的独立观测。这些结果只描述被测连接，不能据此认定已经绕过网关。
 
 这里是项目的官方公开介绍仓库。公开问题和文档建议可以提交到 [Issues](https://github.com/nonbutAworker/swg-bar/issues)。安装、订单或其他私密问题请联系 [support@swgbar.com](mailto:support@swgbar.com)。请勿在公开问题中放入许可证密钥或浏览历史。
 
