@@ -33,9 +33,7 @@ Baca [perbandingan bypass SWG dan pengecualian TLS](https://swgbar.com/id/guides
 
 **Diperiksa pada 1 November 2026:** versi resmi 2.4.0 telah diterbitkan dengan bypass domain native. Checksum, tanda tangan, dan notarisasi paket sudah diverifikasi. Tutorial terperinci 2.4.0 menunggu verifikasi akhir pada perangkat. Lihat [informasi rilis](https://swgbar.com/id/releases/) dan [panduan resmi](https://swgbar.com/id/guides/).
 
-## Pengukuran dan bantuan
-
-[Studi pemeriksaan sertifikat](https://swgbar.com/id/guides/certificate-check-case-study/) mencatat pengukuran bertanggal untuk `swgbar.com:443`, perintah OpenSSL yang dapat diulang, hasil evaluasi macOS, serta pengamatan terpisah menggunakan kode pemeriksaan SWG bar. Hasil tersebut hanya menjelaskan koneksi yang diukur dan tidak membuktikan bahwa gateway telah dilewati.
+## Pertanyaan dan masukan
 
 Ini adalah repositori resmi untuk pengenalan publik proyek. Gunakan [Issues](https://github.com/nonbutAworker/swg-bar/issues) untuk pertanyaan publik dan saran dokumentasi. Untuk urusan pribadi, hubungi [support@swgbar.com](mailto:support@swgbar.com). Jangan memublikasikan kunci lisensi atau riwayat penjelajahan.
 

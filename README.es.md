@@ -33,9 +33,7 @@ Consulta la [comparación entre bypass de SWG y excepción TLS](https://swgbar.c
 
 **Estado comprobado el 1 de noviembre de 2026:** la versión publicada es la 2.4.0 e incluye bypass nativo por dominio. Se verificaron la suma de comprobación, la firma y la notarización del paquete. El tutorial detallado de 2.4.0 está pendiente de la verificación final en el dispositivo. Consulta las [versiones](https://swgbar.com/es/releases/) y las [guías oficiales](https://swgbar.com/es/guides/).
 
-## Medición documentada y ayuda
-
-El [caso de comprobación de certificados](https://swgbar.com/es/guides/certificate-check-case-study/) incluye una medición fechada de `swgbar.com:443`, comandos de OpenSSL que puedes repetir, resultados de macOS y una observación independiente con el código de comprobación de SWG bar. Los resultados describen esas conexiones y no demuestran que se haya evitado una puerta de enlace.
+## Preguntas y comentarios
 
 Esta es la presentación pública oficial del proyecto. Utiliza los [issues](https://github.com/nonbutAworker/swg-bar/issues) para preguntas públicas y sugerencias de documentación. Para consultas privadas, escribe a [support@swgbar.com](mailto:support@swgbar.com). No publiques claves de licencia ni historial de navegación.
 

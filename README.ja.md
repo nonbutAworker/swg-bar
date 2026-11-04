@@ -33,9 +33,7 @@ SWG をバイパスする場合、接続のネットワーク経路が変わり�
 
 **2026 年 11 月 1 日確認**：正式版 2.4.0 が公開され、ネイティブのドメイン回避機能を含みます。パッケージのチェックサム、署名、公証を確認済みです。2.4.0 の詳細な手順は実機での最終検証待ちです。[リリース情報](https://swgbar.com/ja/releases/)と[公式ガイド](https://swgbar.com/ja/guides/)をご覧ください。
 
-## 実測例とお問い合わせ
-
-[証明書検証の事例](https://swgbar.com/ja/guides/certificate-check-case-study/)には、`swgbar.com:443` の測定日時、再実行できる OpenSSL コマンド、macOS の信頼評価結果、SWG bar の検査コードによる別の観測結果を記載しています。結果は測定した接続についての情報であり、ゲートウェイのバイパスを証明するものではありません。
+## 質問とフィードバック
 
 このリポジトリは公式の公開プロジェクト紹介です。公開の質問やドキュメントの提案には [Issues](https://github.com/nonbutAworker/swg-bar/issues) をご利用ください。個別のお問い合わせは [support@swgbar.com](mailto:support@swgbar.com) へ。ライセンスキーや閲覧履歴は公開しないでください。
 
