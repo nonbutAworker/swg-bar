@@ -23,7 +23,7 @@ SWG bar 是一款原生 macOS 選單列應用程式，協助你了解安全 Web 
 2. 從選單列開啟 SWG bar，查看網域及相關憑證。
 3. 如需在瀏覽器中查看結果，請依照 [Chrome 擴充功能指南](https://swgbar.com/zh-TW/chrome-extension/)完成連接。
 
-Mac 應用程式支援英語、簡體中文、繁體中文、日語及韓語。Mac 應用程式 2.4.0 隨附的 Chrome 擴充功能 2.1.13 支援官網全部 12 種語言。Chrome 商店更新需另行審核後發布，請以商店顯示的版本為準。
+Mac 應用程式 2.4.12 與隨附的 Chrome 擴充功能 2.1.13 均支援官網全部 12 種語言。Chrome 商店更新須另行審查後發布，請以商店顯示的版本為準。
 
 ## 如何繞過 SWG：區分路由與 TLS 解密例外
 
@@ -31,11 +31,15 @@ Mac 應用程式支援英語、簡體中文、繁體中文、日語及韓語。M
 
 閱讀 [SWG 繞過與 TLS 解密例外的差異](https://swgbar.com/zh-TW/guides/swg-bypass-vs-tls-exception/)及 [HTTPS 偵測指南](https://swgbar.com/zh-TW/guides/detect-https-inspection/)，了解應檢查哪些證據。
 
-**2026 年 11 月 1 日核驗**：正式版 2.4.0 已發布，包含原生網域繞過功能，安裝套件校驗碼、簽署及公證已核驗。2.4.0 詳細教學仍待最後的實機驗證。請查看[版本資訊](https://swgbar.com/zh-TW/releases/)和[官方指南](https://swgbar.com/zh-TW/guides/)。
+2026 年 11 月 4 日驗證：正式 2.4.12 安裝套件（組建 42）與公布的 SHA-256 一致，並通過 Apple 簽章與公證檢查。本機應用程式及原生網路延伸功能與套件一致，隨附 Chrome 配套擴充功能仍為 2.1.13。實際啟用、關閉、結束與重新啟動測試見下方紀錄。
+
+[逐步操作教學](https://swgbar.com/zh-TW/guides/how-to-bypass-swg/) · [完整實測紀錄與限制](https://swgbar.com/zh-TW/guides/certificate-check-case-study/)
 
 ## 實際測量與回饋
 
-[憑證檢查案例](https://swgbar.com/zh-TW/guides/certificate-check-case-study/)記錄了 `swgbar.com:443` 的測量時間、可重複執行的 OpenSSL 指令、macOS 信任結果，以及使用 SWG bar 檢查程式碼進行的獨立觀測。這些結果僅描述受測連線，不能據此認定已繞過閘道。
+[完整實測紀錄與限制](https://swgbar.com/zh-TW/guides/certificate-check-case-study/)
+
+使用 SWG bar 2.4.12 對 `www.doubao.com:443` 進行了六次新連線測試：關閉繞過或結束應用程式時傳回檢查機構簽發的憑證鏈，啟用繞過或重新啟動恢復後傳回公用憑證鏈。案例記錄了新的 TLS 驗證、重新啟動行為與應用程式自動驗證的限制。結果僅適用於本次網路中測試的連線。
 
 這裡是專案的官方公開介紹儲存庫。公開問題與文件建議可提交至 [Issues](https://github.com/nonbutAworker/swg-bar/issues)。安裝、訂單或其他私人問題請聯絡 [support@swgbar.com](mailto:support@swgbar.com)。請勿在公開問題中放入授權金鑰或瀏覽紀錄。
 
