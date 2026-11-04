@@ -33,9 +33,7 @@ Mac 应用支持英语、简体中文、繁体中文、日语和韩语。Mac 应
 
 **2026 年 11 月 1 日核验**：正式版 2.4.0 已发布，包含原生域名绕过功能，安装包校验和、签名及公证已核验。2.4.0 详细教程仍待最后的实机验证。请查看[版本信息](https://swgbar.com/zh-CN/releases/)和[官方指南](https://swgbar.com/zh-CN/guides/)。
 
-## 真实测量与反馈
-
-[证书检查案例](https://swgbar.com/zh-CN/guides/certificate-check-case-study/)记录了对 `swgbar.com:443` 的测量时间、可重复执行的 OpenSSL 命令、macOS 信任结果，以及使用 SWG bar 检测代码进行的独立观测。这些结果只描述被测连接，不能据此认定已经绕过网关。
+## 问题与反馈
 
 这里是项目的官方公开介绍仓库。公开问题和文档建议可以提交到 [Issues](https://github.com/nonbutAworker/swg-bar/issues)。安装、订单或其他私密问题请联系 [support@swgbar.com](mailto:support@swgbar.com)。请勿在公开问题中放入许可证密钥或浏览历史。
 

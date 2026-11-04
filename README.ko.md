@@ -33,9 +33,7 @@ SWG 우회는 연결의 네트워크 경로를 바꾸는 것입니다. TLS 검�
 
 **2026년 11월 1일 확인:** 공개 버전은 2.4.0이며 네이티브 도메인 우회를 포함합니다. 패키지 체크섬, 서명, 공증을 확인했습니다. 2.4.0 상세 안내는 기기에서의 최종 검증을 기다리고 있습니다. [릴리스 정보](https://swgbar.com/ko/releases/)와 [공식 가이드](https://swgbar.com/ko/guides/)를 확인하세요.
 
-## 실제 측정과 문의
-
-[인증서 확인 사례](https://swgbar.com/ko/guides/certificate-check-case-study/)에는 `swgbar.com:443`의 측정 시각, 다시 실행할 수 있는 OpenSSL 명령, macOS 신뢰 평가 결과, SWG bar 검사 코드로 별도 측정한 결과가 있습니다. 이 결과는 해당 연결을 설명하며 게이트웨이 우회를 증명하지는 않습니다.
+## 질문과 피드백
 
 이 저장소는 공식 공개 프로젝트 소개입니다. 공개 질문이나 문서 제안은 [Issues](https://github.com/nonbutAworker/swg-bar/issues)를 이용하세요. 비공개 문의는 [support@swgbar.com](mailto:support@swgbar.com)으로 보내 주세요. 라이선스 키나 방문 기록은 공개하지 마세요.
 

@@ -33,9 +33,7 @@ Consultez la [comparaison entre contournement et exception TLS](https://swgbar.c
 
 **État vérifié le 1er novembre 2026 :** la version publiée est la 2.4.0, avec contournement natif par domaine. La somme de contrôle, la signature et la notarisation du paquet ont été vérifiées. Le tutoriel détaillé de 2.4.0 attend la vérification finale sur l’appareil. Consultez les [informations de version](https://swgbar.com/fr/releases/) et les [guides officiels](https://swgbar.com/fr/guides/).
 
-## Mesure documentée et assistance
-
-L’[étude de vérification des certificats](https://swgbar.com/fr/guides/certificate-check-case-study/) présente une mesure datée de `swgbar.com:443`, des commandes OpenSSL reproductibles, les résultats de macOS et une observation distincte avec le code de vérification de SWG bar. Ces résultats décrivent les connexions mesurées et ne prouvent pas le contournement d’une passerelle.
+## Questions et commentaires
 
 Ce dépôt est la présentation publique officielle du projet. Utilisez les [issues](https://github.com/nonbutAworker/swg-bar/issues) pour les questions publiques et suggestions de documentation. Pour une demande privée : [support@swgbar.com](mailto:support@swgbar.com). Ne publiez pas de clés de licence ni d’historique de navigation.
 

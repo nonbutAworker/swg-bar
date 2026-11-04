@@ -35,10 +35,6 @@ Read [SWG bypass vs. a TLS inspection exception](https://swgbar.com/en/guides/sw
 
 **Release status, checked November 1, 2026:** the published installer is 2.4.0 and includes native domain bypass. Its package checksum, signature, and notarization have been verified. The detailed 2.4.0 tutorial is awaiting final on-device verification. See the [release information](https://swgbar.com/en/releases/) and [official guides](https://swgbar.com/en/guides/).
 
-## A documented certificate check
-
-Our [certificate check case study](https://swgbar.com/en/guides/certificate-check-case-study/) records a dated check of `swgbar.com:443`, with OpenSSL commands you can repeat and macOS trust results. It also publishes a separate observation from SWG bar's released probe code. These results describe the measured connections; they do not establish that a gateway was bypassed or that another app used the same TLS connection.
-
 ## Questions and feedback
 
 This is SWG bar's official public project overview. Use this repository's [issues](https://github.com/nonbutAworker/swg-bar/issues) for public product questions and documentation suggestions. For installation, orders, or private support, contact [support@swgbar.com](mailto:support@swgbar.com). Keep license keys and browsing history out of public issues.
