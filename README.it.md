@@ -23,7 +23,7 @@ Richiede **macOS 14 o successivo e Apple silicon**. La prova comprende **14 gior
 2. Apri SWG bar dalla barra dei menu ed esamina un dominio e i suoi certificati.
 3. Se lo desideri, configura l’[estensione per Chrome](https://swgbar.com/it/chrome-extension/).
 
-L’app Mac 2.4.12 e l’estensione Chrome 2.1.13 inclusa supportano tutte le 12 lingue del sito. Gli aggiornamenti del Chrome Web Store vengono distribuiti separatamente dopo la revisione; controlla la versione indicata nello store.
+L’app per Mac supporta inglese, cinese semplificato e tradizionale, giapponese e coreano. L’estensione Chrome 2.1.13, inclusa con l’app per Mac 2.4.0, supporta tutte le 12 lingue del sito. Gli aggiornamenti del Chrome Web Store vengono pubblicati separatamente dopo la revisione; verifica la versione indicata nello store.
 
 ## Bypass SWG ed eccezioni all’ispezione TLS
 
@@ -31,15 +31,11 @@ Il bypass di un SWG modifica il percorso di rete della connessione. Un’eccezio
 
 Leggi il [confronto tra bypass SWG ed eccezione TLS](https://swgbar.com/it/guides/swg-bypass-vs-tls-exception/) e la [guida per rilevare l’ispezione HTTPS](https://swgbar.com/it/guides/detect-https-inspection/).
 
-Verificato il 4 novembre 2026: il pacchetto ufficiale 2.4.12 (build 42) corrisponde allo SHA-256 pubblicato e supera i controlli Apple di firma e autenticazione notarile. L’app e l’estensione di rete nativa installate corrispondono al pacchetto; l’estensione Chrome inclusa resta alla versione 2.1.13. I test reali di attivazione, disattivazione, chiusura e riavvio sono documentati di seguito.
-
-[Guida passo per passo](https://swgbar.com/it/guides/how-to-bypass-swg/) · [Test completo e limiti](https://swgbar.com/it/guides/certificate-check-case-study/)
+**Stato verificato il 1° novembre 2026:** la versione pubblicata è la 2.4.0 e include il bypass nativo per dominio. Somma di controllo, firma e notarizzazione del pacchetto sono state verificate. Il tutorial dettagliato di 2.4.0 attende la verifica finale sul dispositivo. Consulta le [informazioni sulle versioni](https://swgbar.com/it/releases/) e le [guide ufficiali](https://swgbar.com/it/guides/).
 
 ## Misurazione documentata e assistenza
 
-[Test completo e limiti](https://swgbar.com/it/guides/certificate-check-case-study/)
-
-In un test di sei connessioni a `www.doubao.com:443` con SWG bar 2.4.12, con il bypass disattivato o l’app chiusa è stata restituita una catena d’ispezione; con il bypass attivato o ripristinato è stata restituita una catena pubblica. Il caso documenta nuove verifiche TLS, il comportamento al riavvio e i limiti della verifica automatica dell’app. I risultati si riferiscono alle connessioni testate su questa rete.
+Il [caso di verifica dei certificati](https://swgbar.com/it/guides/certificate-check-case-study/) include una misurazione datata di `swgbar.com:443`, comandi OpenSSL ripetibili, risultati di macOS e un’osservazione separata con il codice di verifica di SWG bar. I risultati descrivono le connessioni misurate e non provano il bypass di una passerella.
 
 Questo è il repository ufficiale di presentazione pubblica del progetto. Usa gli [issue](https://github.com/nonbutAworker/swg-bar/issues) per domande pubbliche e suggerimenti sulla documentazione. Per richieste private: [support@swgbar.com](mailto:support@swgbar.com). Non pubblicare chiavi di licenza o cronologia di navigazione.
 
